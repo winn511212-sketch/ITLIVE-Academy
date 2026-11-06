@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT LIVE Academy - Admin Dashboard</title>
+  <meta name="description" content="IT LIVE Academy zamonaviy boshqaruv platformasi: talabalar, kurslar, statistika va tahlillar.">
+
+  <!-- Google Fonts: Plus Jakarta Sans, Outfit, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Pro Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Canvas Confetti-->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+  <!-- React 18 & ReactDOM (Local with CDN fallback) -->
+  <script src="react.production.min.js"></script>
+  <script src="react-dom.production.min.js"></script>
+  <script>
+    if (!window.React) {
+      document.write('<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"><\/script>');
+      document.write('<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"><\/script>');
+    }
+  </script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=2.2.0">
+</head>
+<body>
+  <!-- React Root Container -->
+  <div id="root">
+    <div class="initial-app-loader">
+      <div class="spinner-box">
+        <div class="spinner-ring"></div>
+        <div class="loader-logo">
+          <span class="red-tag">IT</span><span class="white-tag">LIVE</span>
+        </div>
+      </div>
+      <p>IT LIVE Dashboard yuklanmoqda...</p>
+    </div>
+  </div>
+
+  <!-- React Compiled Application Script -->
+  <script src="app.js?v=2.2.0"></script>
+</body>
+</html>
